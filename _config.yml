@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://conzhangl.gitee.io/
+root: /hexoblog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,5 +97,12 @@ theme: yilia-plus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo: https://github.com/conzhangL/conzhangL.github.io
+#   branch: master
+
 deploy:
-  type: ''
+  type: git
+  repo: https://gitee.com/conzhangL/hexoBlog.git
+  branch: master
