@@ -83,7 +83,7 @@ top: true
 
 # Miscellaneous
 # 百度统计
-baidu_analytics: ''
+baidu_analytics: '2b5c55baa59d9df212545eefa77ad730'
 google_analytics: ''
 
 # 网站图标
@@ -135,9 +135,9 @@ giteement:
 
 # 访问量统计功能(不蒜子)
 busuanzi:
-  enable: false
-  site_visit: false  # 站点访问量显示
-  article_visit: false  # 文章访问量显示
+  enable: true
+  site_visit: true  # 站点访问量显示
+  article_visit: true  # 文章访问量显示
 
 # 网易云音乐插件
 music:

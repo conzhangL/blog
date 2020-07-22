@@ -106,3 +106,9 @@ deploy:
   type: git
   repo: https://gitee.com/conzhangL/hexoBlog.git
   branch: master
+
+  # mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true  # default true
+  version: "7.1.2" # default v7.1.2
+  options:  
