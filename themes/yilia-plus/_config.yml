@@ -120,18 +120,18 @@ gitment_oauth:
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
 # 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
 giteement:
-  enable: false  # 是否启用码云评论系统
+  enable: true  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
   remote: false
-  redirect_uri: ''   # 应用回调地址(请和配置的第三方应用保持一致)
+  redirect_uri: 'http://conzhangl.gitee.io/hexoblog'   # 应用回调地址(请和配置的第三方应用保持一致)
   # 不能更改(网上开源项目`https://github.com/Rob--W/cors-anywhere`作者提供的专门用来跨域服务器的配置)
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
-  giteeID: ''  # 你的码云账号英文名
+  giteeID: 'conzhangL'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: ''
+  repo: 'hexoBlog'
   gitment_oauth:
-    client_id: ''           #client ID
-    client_secret: ''       #client secret
+    client_id: '6b7c14ce2aedb3c0cb1c705f76e0099b354fc3ca2ec52658e90beaad8471879c'           #client ID
+    client_secret: '7f368cbbb55a014b048b5bffed70139ab4fb6df7e3d4e94b40f061073f7231c5'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
