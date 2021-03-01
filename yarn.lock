@@ -124,7 +124,7 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npm.taobao.org/binary-extensions/download/binary-extensions-2.1.0.tgz?cache=0&sync_timestamp=1593261309792&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbinary-extensions%2Fdownload%2Fbinary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
   integrity sha1-MPpAyef+B9vIlWeM0ocCTeokHdk=
 
-bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
+bluebird@^3.2.2, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
@@ -212,8 +212,8 @@ chokidar@^3.0.0, chokidar@^3.3.0:
 
 clipboard@^2.0.0:
   version "2.0.6"
-  resolved "https://registry.npm.taobao.org/clipboard/download/clipboard-2.0.6.tgz?cache=0&sync_timestamp=1583389723192&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fclipboard%2Fdownload%2Fclipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
-  integrity sha1-UpISlu7A/fd+rRdJQhshyWhkc3Y=
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
+  integrity sha512-g5zbiixBRk/wyKakSwCKd7vQXDjFnAMGHoEyBogG/bw9kTD9GvdAvaoRR1ALcEzt3pVKxZR0pViekPMIS0QyGg==
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
@@ -375,6 +375,13 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+deep-assign@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/deep-assign/-/deep-assign-2.0.0.tgz#ebe06b1f07f08dae597620e3dd1622f371a1c572"
+  integrity sha1-6+BrHwfwja5ZdiDj3RYi83GhxXI=
+  dependencies:
+    is-obj "^1.0.0"
+
 deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
@@ -382,8 +389,8 @@ deepmerge@^4.2.2:
 
 delegate@^3.1.2:
   version "3.2.0"
-  resolved "https://registry.npm.taobao.org/delegate/download/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
-  integrity sha1-tmtxwxWFIuirV0T3INjKDCr1kWY=
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 depd@~1.1.2:
   version "1.1.2"
@@ -553,7 +560,7 @@ glob@^7.1.6:
 
 good-listener@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.npm.taobao.org/good-listener/download/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
   integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
   dependencies:
     delegate "^3.1.2"
@@ -598,6 +605,32 @@ hexo-cli@^3.0.0:
     minimist "^1.2.0"
     resolve "^1.11.0"
     tildify "^2.0.0"
+
+hexo-deployer-git@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-deployer-git/-/hexo-deployer-git-2.1.0.tgz#2e72f05d7b318dbe29929d156ea13f9132354ff1"
+  integrity sha512-0rx8YVd1UrwD9vUzIPrB7mljLdcmUv0zRj3MAMCBxY7HqI2RM5ZEV0uKxi34qB7LYA80BNl3FWHl2ghO/tKVTA==
+  dependencies:
+    bluebird "^3.5.0"
+    chalk "^3.0.0"
+    hexo-fs "^2.0.0"
+    hexo-util "^1.0.0"
+    moment "^2.18.0"
+    swig-templates "^2.0.2"
+
+hexo-filter-flowchart@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-filter-flowchart/-/hexo-filter-flowchart-1.0.4.tgz#5b213126a02771df260ed0d5c6e04613486f9ccf"
+  integrity sha1-WyExJqAncd8mDtDVxuBGE0hvnM8=
+  dependencies:
+    deep-assign "^2.0.0"
+
+hexo-filter-mermaid-diagrams@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/hexo-filter-mermaid-diagrams/-/hexo-filter-mermaid-diagrams-1.0.5.tgz#1e32fc4e46eab90cf3a375b5c830a9f2aef1640f"
+  integrity sha512-/IkIMKn4V7PBAzMJGNDPSoBFlv1JGvIELXm5AWkR8N5N44kDTNJLtabb4h095UhZQIXOrF9zA1WYhi6wrWLW5Q==
+  dependencies:
+    deep-assign "^2.0.0"
 
 hexo-front-matter@^1.0.0:
   version "1.0.0"
@@ -714,7 +747,7 @@ hexo-util@1.0.0:
     html-entities "^1.2.1"
     striptags "^3.1.1"
 
-hexo-util@^1.4.0, hexo-util@^1.9.1:
+hexo-util@^1.0.0, hexo-util@^1.4.0, hexo-util@^1.9.1:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/hexo-util/download/hexo-util-1.9.1.tgz#15dc10d0dca474c978cdba9c20e8d0417ac993de"
   integrity sha1-FdwQ0NykdMl4zbqcIOjQQXrJk94=
@@ -834,6 +867,11 @@ is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npm.taobao.org/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
+
+is-obj@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+  integrity sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
 
 is-plain-object@^3.0.0:
   version "3.0.1"
@@ -984,6 +1022,11 @@ moment-timezone@^0.5.21:
   version "2.27.0"
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.27.0.tgz?cache=0&sync_timestamp=1592517925956&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha1-i/9OPiaiNiIN/j423nVrbrqgEF0=
+
+moment@^2.18.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -1158,9 +1201,9 @@ pretty-hrtime@^1.0.3:
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
 prismjs@^1.17.1:
-  version "1.20.0"
-  resolved "https://registry.npm.taobao.org/prismjs/download/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha1-m2hfxICjUU7nGY6sajv1AkMZ/wM=
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -1244,7 +1287,7 @@ sax@~1.2.4:
 
 select@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/select/download/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
   integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 semver@^5.5.0:
@@ -1434,7 +1477,7 @@ swig-extras@0.0.1:
   dependencies:
     markdown "~0.5.0"
 
-swig-templates@^2.0.3:
+swig-templates@^2.0.2, swig-templates@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/swig-templates/download/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
   integrity sha1-a0xDtGIXXfKo2oV6IEM3nsbqb9A=
@@ -1459,8 +1502,8 @@ tildify@^2.0.0:
 
 tiny-emitter@^2.0.0:
   version "2.1.0"
-  resolved "https://registry.npm.taobao.org/tiny-emitter/download/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
-  integrity sha1-HRpW7fxRxD6GPLtTgqcjMONVVCM=
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 titlecase@^1.1.2:
   version "1.1.3"
